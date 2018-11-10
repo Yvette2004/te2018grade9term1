@@ -34,6 +34,7 @@ if (raining == "yes" && thunderstorming =="no"){
  else if  (raining || thunderstorming == "yes")
  	{console.log("Don't bring an umbrella");}
 //else {
+	//console.log("Don't bring an umbrella");
 //}
 	
 

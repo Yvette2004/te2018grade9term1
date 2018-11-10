@@ -19,5 +19,6 @@
   "homepage": "https://github.com/Yvette2004/te2018grade9term1#readme",
   "dependencies": {
     "readline-sync": "^1.4.9"
-  }
+  },
+  "devDependencies": {}
 }
