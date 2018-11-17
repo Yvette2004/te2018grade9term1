@@ -1,0 +1,238 @@
+Last login: Fri Nov  9 17:04:50 on ttys000
+MacBook-Pro-67:~ student$ cd Documents
+MacBook-Pro-67:Documents student$ ls
+GitHub
+MacBook-Pro-67:Documents student$ cd github
+MacBook-Pro-67:github student$ ls
+te2018grade9term1
+MacBook-Pro-67:github student$ cd te2018grade9term1
+MacBook-Pro-67:te2018grade9term1 student$ ls
+Parent.js		fantasy.js		nim.js
+README.md		flower.js		node_modules
+arrays.js		functions.js		numbers.js
+change.js		functions1.js		package-lock.json
+conditionals.js		functions2.js		package.json
+contacts.js		haunted.js		scratchpad.js
+data.js			hello.js		strings.js
+debugging.js		loops.js
+easter.js		math.js
+MacBook-Pro-67:te2018grade9term1 student$ node Pareent.js
+internal/modules/cjs/loader.js:582
+    throw err;
+    ^
+
+Error: Cannot find module '/Users/student/Documents/GitHub/te2018grade9term1/Pareent.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+/Users/student/Documents/GitHub/te2018grade9term1/Parent.js:9
+ else (passClasses == "no"){
+                           ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+/Users/student/Documents/GitHub/te2018grade9term1/Parent.js:9
+ else (passClasses == "no"){
+                           ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+/Users/student/Documents/GitHub/te2018grade9term1/Parent.js:9
+ else (passClasses == "no"){
+                           ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+/Users/student/Documents/GitHub/te2018grade9term1/Parent.js:9
+ else (passClasses == "no"){
+                           ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+/Users/student/Documents/GitHub/te2018grade9term1/Parent.js:9
+ else (passClasses == "no"){
+                           ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+/Users/student/Documents/GitHub/te2018grade9term1/Parent.js:9
+ else (passClasses == "no"){
+                           ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+/Users/student/Documents/GitHub/te2018grade9term1/Parent.js:17
+else (vitamins == "no"){
+                       ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+/Users/student/Documents/GitHub/te2018grade9term1/Parent.js:17
+else (vitamins == "no"){
+                       ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+Mom rules
+Did you pass all your classes?yes
+Outstanding job!
+Did you take your vitamins?no
+Why not?
+/Users/student/Documents/GitHub/te2018grade9term1/Parent.js:19
+	if (vitamin == "whatever" || talkback == "I don't care") {
+	^
+
+ReferenceError: vitamin is not defined
+    at Object.<anonymous> (/Users/student/Documents/GitHub/te2018grade9term1/Parent.js:19:2)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+Mom rules
+Did you pass all your classes?yes
+Outstanding job!
+Did you take your vitamins?no
+/Users/student/Documents/GitHub/te2018grade9term1/Parent.js:18
+	let talkback = readline.question("Why not?")
+	               ^
+
+ReferenceError: readline is not defined
+    at Object.<anonymous> (/Users/student/Documents/GitHub/te2018grade9term1/Parent.js:18:17)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+Mom rules
+Did you pass all your classes?yes
+Outstanding job!
+Did you take your vitamins?no
+Why not?whatever
+You know the consequence.I will call Mayra !!!
+Did you do the laundry?no
+How come?
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+Mom rules
+Did you pass all your classes?no
+Sucks, no more korean dramas!
+Did you take your vitamins?yes
+Finally, you are taking them on time.Good job!!!
+Did you do the laundry?no
+How come?It's not my week to do it
+Do it its part of your chores, you have no choice
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+Mom rules
+Did you pass all your classes?yes
+Outstanding job!
+Did you take your vitamins?yes
+Finally, you are taking them on time.Good job!!!
+Did you do the laundry?yes
+You're amazing.I don't need to go to wash!!!
+Do you want to have breakfast tomorrow morning, at 8am?yes
+The usual dinner!!
+MacBook-Pro-67:te2018grade9term1 student$ node Parent.js
+Mom rules
+Did you pass all your classes?no
+Sucks, no more korean dramas!
+Did you take your vitamins?no
+Why not? I don't care
+You know the consequence.I will call Mayra !!!
+Did you do the laundry?no
+How come?You do it
+Do it its part of your chores, you have no choice
+Do you want to have breakfast tomorrow morning, at 8am?no
+Good I don't need to get up early and save some money.Yeah!
+MacBook-Pro-67:te2018grade9term1 student$ 
