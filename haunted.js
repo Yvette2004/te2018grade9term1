@@ -52,8 +52,7 @@ console.log(`${player.name}  starts walking in the opposite direction, you spot 
  if(answer =="n" || answer=="no")
  { player.intellect++;
 console.log(`${player.name} You survived`);
-  }
-}
+ 
 
     if (enterHouse == "teleport") 
     {
@@ -65,27 +64,27 @@ if(japan == "y" || japan == "yes") {
  player.charm++;
  console.log(`${player.name}
   You go outside and   see a bunch of people all walking
-  to their desired destinationos. You go to the police...You are safe`);}
+  to their desired destinationos. You go to the police...You are safe`);
 
  if(japan == "n" || japan == "no")
  { player.intellect++;
 console.log(`${player.name} You see a dark shadow approaching from halfway accross
  the room.It starts runing towards you .You take out your ${player.help} and stop time.`);
-  }
-}
+  
 
 
-     if(enterHouse =="abandon") {
+      if(enterHouse =="abandon") {
   player.intellect++;
   console.log(`${player.name} decides to flee.You are a coward, but smart.`);
   console.log(`${player.name} You survived`);
   
 }
+}
+}
 
-
-
-
-
+}
+ }
+}
 
 
 

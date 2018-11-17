@@ -1,0 +1,2226 @@
+Last login: Fri Nov 16 19:14:41 on ttys000
+MacBook-Pro-67:~ student$ cd Documents
+MacBook-Pro-67:Documents student$ ls
+GitHub
+MacBook-Pro-67:Documents student$ cd github
+MacBook-Pro-67:github student$ ls
+te2018grade9term1
+MacBook-Pro-67:github student$ ls te2018grade9term1
+Parent.js		easter.js		math.js
+README.md		fantasy.js		nim.js
+Terminal Saved Output	flower.js		node_modules
+arrays.js		functions.js		numbers.js
+change.js		functions1.js		package-lock.json
+conditionals.js		functions2.js		package.json
+contacts.js		haunted.js		scratchpad.js
+data.js			hello.js		strings.js
+debugging.js		loops.js		yvette 2
+MacBook-Pro-67:github student$ node haunted.js
+internal/modules/cjs/loader.js:582
+    throw err;
+    ^
+
+Error: Cannot find module '/Users/student/Documents/GitHub/haunted.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+MacBook-Pro-67:github student$ node haunted.js
+internal/modules/cjs/loader.js:582
+    throw err;
+    ^
+
+Error: Cannot find module '/Users/student/Documents/GitHub/haunted.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+MacBook-Pro-67:github student$ node haunted.js
+internal/modules/cjs/loader.js:582
+    throw err;
+    ^
+
+Error: Cannot find module '/Users/student/Documents/GitHub/haunted.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+MacBook-Pro-67:github student$ clear
+
+MacBook-Pro-67:github student$ cd Documents
+-bash: cd: Documents: No such file or directory
+MacBook-Pro-67:github student$ ls
+te2018grade9term1
+MacBook-Pro-67:github student$ cd te2018grade9term1
+MacBook-Pro-67:te2018grade9term1 student$ ls
+Parent.js		easter.js		math.js
+README.md		fantasy.js		nim.js
+Terminal Saved Output	flower.js		node_modules
+arrays.js		functions.js		numbers.js
+change.js		functions1.js		package-lock.json
+conditionals.js		functions2.js		package.json
+contacts.js		haunted.js		scratchpad.js
+data.js			hello.js		strings.js
+debugging.js		loops.js		yvette 2
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+else if {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:26
+else if(continueInside == "y" || continueInside == "yes") {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+else  {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:33
+else if {
+        ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:41
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:33
+else {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:41
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+else if {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+else if {
+        ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:40
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) yes
+yvette prepares their fists and opens the door...
+yvette sees a figure and starts hitting it. Quickly realizing that nothing was actually there
+Will you continue going inside, up to the second floor? (yes or no)yes
+yvette takes out her flashlight and realizes that there was nothing haunted about it.
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:39
+else if(continueInside == "y" || continueInside == "yes") {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) no
+yvette decides not to open the door. However...
+yvette when you start walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)yes
+yvette takes out her weapon, but it's too late you are already dead
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) yes
+yvette prepares their fists and opens the door...
+yvette sees a figure and starts hitting it. Quickly realizing that nothing was actually there
+Will you continue going inside, up to the second floor? (yes or no)^[[A
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ 
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:30
+ else if (continueInside == "n" || continueInside == "no"){
+ ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:45
+else if(continuIn == "n" || continueIn == "no");}}
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:50
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:50
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:50
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:50
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:46
+console.log(`${player.name} you survived...don't ask questions}}
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unterminated template literal
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:51
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:52
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:31
+  else if (continueInside == "n" || continueInside == "no"){
+  ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:53
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:53
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) no
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:31
+  else if(continueInside == "n" || continueInside == "no"){
+  ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: y
+y stands in front of a spooky haunted house.
+y hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) yes
+y prepares their fists and opens the door...
+y sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue going inside, up to the second floor? (yes or no)yes
+y takes out her flashlight and realizes that there was nothing haunted about it.
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: y
+y stands in front of a spooky haunted house.
+y hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) yes
+y prepares their fists and opens the door...
+y sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue going inside, up to the second floor? (yes or no)no
+y decides not to open the door. However...
+y  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)no
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:31
+  else(continueInside == "n" || continueInside == "no"){
+  ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:31
+  else if (continueInside == "n" || continueInside == "no"){
+  ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:31
+  else if(continueInside == "n" || continueInside == "no"){
+  ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:31
+  else if(continueInside == "n" || continueInside == "no"){
+  ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: ml
+ml stands in front of a spooky haunted house.
+ml hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) no
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:37
+else (enterHouse == "n" || entereHouse == "no"{
+                                              ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:37
+else (enterHouse == "n" || enterHouse == "no"){
+                                              ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: m
+m stands in front of a spooky haunted house.
+m hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) no
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:37
+else (enterHouse == "n" || enterHouse == "no") {
+                                               ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: m
+m stands in front of a spooky haunted house.
+m hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) no
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:31
+ else if (continueInside == "n" || continueInside == "no"){
+ ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:31
+ else if (continueInside == "n" || continueInside == "no"){
+ ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: m
+m stands in front of a spooky haunted house.
+m hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) yes
+m prepares their fists and opens the door...
+m sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue going inside, up to the second floor? (yes or no)yes
+m takes out her flashlight and realizes that there was nothing haunted about it.
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: m
+m stands in front of a spooky haunted house.
+m hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) yes
+m prepares their fists and opens the door...
+m sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue going inside, up to the second floor? (yes or no)no
+m decides not to open the door. However...
+m  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)no
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:31
+ else(continueInside == "n" || continueInside == "no"){
+ ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+ else if {
+ ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+ else  {
+ ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+ if {
+    ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+ else if (continueInside == "n" || continueInside == "no") {
+ ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+ else  (continueInside == "n" || continueInside == "no") {
+ ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+ else  (continueInside == "n" || continueInside == "no") {
+ ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: j
+j stands in front of a spooky haunted house.
+j hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) yes
+j prepares their fists and opens the door...
+j sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue going inside, up to the second floor? (yes or no)no
+j decides not to open the door. However...
+j  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)^[[A
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: k
+k stands in front of a spooky haunted house.
+k hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) yes
+k prepares their fists and opens the door...
+k sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue going inside, up to the second floor? (yes or no)no
+k decides not to open the door. However...
+k  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)^[[A
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: l
+l stands in front of a spooky haunted house.
+l hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) no
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:54
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:54
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:54
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:54
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:54
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:38
+else {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:38
+else {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:38
+else {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:38
+else {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:38
+else {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:38
+else {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:38
+else if  {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:38
+else  {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:38
+else  {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: clear
+clear stands in front of a spooky haunted house.
+clear hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) 
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ 
+MacBook-Pro-67:te2018grade9term1 student$ 
+MacBook-Pro-67:te2018grade9term1 student$ 
+MacBook-Pro-67:te2018grade9term1 student$ clear
+
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: ^[[A
+[A stands in front of a spooky haunted house.
+[A hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) 
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) no
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:53
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:38
+else  {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:53
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:53
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:53
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:38
+else  {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:38
+else  {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:38
+else  {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: clear
+clear stands in front of a spooky haunted house.
+clear hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) 
+clear decides not to open the door. However...
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ clear
+
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) no
+yvette decides not to open the door. However...
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) yes
+yvette prepares their fists and opens the door...
+yvette sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:56
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) yes
+yvette prepares their fists and opens the door...
+yvette sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue?yes
+You already know what's going to happen...YOU ARE DEAD :-)
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:29
+    else if (talkback == "no" || talkback == "never") {
+    ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:29
+    else  (talkback == "no" || talkback == "never") {
+    ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:58
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) yes
+yvette prepares their fists and opens the door...
+yvette sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue?no
+YOU ARE SMART..but since you are already in ...YOU ARE DEAD!! :-)
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:57
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:49
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) yes
+yvette prepares their fists and opens the door...
+yvette sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue?no
+yvetteyou see a shadow lurking.you just died 
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) no
+yvette decides not to open the door. However...
+yvette  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)yes
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:40
+if(answer == "y" || here == "yes") {
+                    ^
+
+ReferenceError: here is not defined
+    at Object.<anonymous> (/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:40:21)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) no
+yvette decides not to open the door. However...
+yvette  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)no
+yvette you survived...don't ask questions.
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: j
+j stands in front of a spooky haunted house.
+j hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) mo
+j decides not to open the door. However...
+j  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)yes
+j takes out her weapon, but it's too late you are already dead
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: ^[[A
+[A stands in front of a spooky haunted house.
+[A hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no) ^[[A^[[A^[[A
+[A decides not to open the door. However...
+[A  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)
+[A you survived...don't ask questions.
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport) teleport
+yvette You decide to teleport and now you are heading to Japan
+yvette  You are now in an arcade game.No one is there and it is very dark.You see a door that is red.
+Will you follow and enter? (yes or no)no
+yvette you survived...don't ask questions.
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport) telport
+yvette decides not to open the door. However...
+yvette  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)^[[A
+yvette You see a dark shadow approaching from halfway accross
+ the room.It starts runing towards you .You take out your watch and stop time.
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ 
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport) teleport
+yvette You decide to teleport and now you are heading to Japan
+yvette  You are now in an arcade game.No one is there and it is very dark.You see a door that is red.
+Will you follow and enter? (yes or no)no
+yvette you survived...don't ask questions.
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport) teleport
+yvette You decide to teleport and now you are heading to Japan
+yvette  You are now in an arcade game.No one is there and it is very dark.You see a door that is red.
+Will you follow and enter? (yes or no)yes
+yvette
+  You go outside and see a bunch of people all walking
+  to their desired destinationos. You go to the police...You are safe
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport) teleport
+yvette You decide to teleport and now you are heading to Japan
+yvette  You are now in an arcade game.No one is there and it is very dark.You see a door that is red.
+Will you follow and enter? (yes or no)no
+yvette You see a dark shadow approaching from halfway accross
+ the room.It starts runing towards you .You take out your watch and stop time.
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:65
+else if{let japan =  READLINE.question("Will you follow and enter? (yes or no)");
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:52
+else  {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: ^[[A
+[A stands in front of a spooky haunted house.
+[A hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport) ^[[A^[[A
+[A decides not to open the door. However...
+[A  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)
+[A You survived
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: ^[[A
+[A stands in front of a spooky haunted house.
+[A hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport) 
+[A decides not to open the door. However...
+[A  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)
+[A You survived
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+     else if(talkback == "bye" || talkback == "bye") {
+     ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:28
+  else if  (talkback == "yes" || talkback == "maybe") {
+  ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+     else (talkback == "bye" || talkback == "bye") {
+     ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+     else if(talkback == "bye" || talkback == "bye") {
+     ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+     else if(talkback == "bye" || talkback == "bye") {
+     ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:32
+     else if(talkback == "bye" || talkback == "bye") {
+     ^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:72
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport) ^[[A
+yvette decides not to open the door. However...
+yvette  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)
+yvette You survived
+Thanks for playing!
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) ^[[A
+yvette decides not to open the door. However...
+yvette  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) yes
+yvette prepares their fists and opens the door...
+yvette sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue?yes
+yvette takes out her flashlight and realizes that there was nothing haunted about it. YOU SURVIVED
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:105
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:105
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) yes
+yvette prepares their fists and opens the door...
+yvette sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue?^[[A
+yvette decides not to open the door. However...
+yvette  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) teleport
+yvette decides to flee.You are a coward, but smart.
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) teleport
+yvette decides to flee.You are a coward, but smart.
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: h
+h stands in front of a spooky haunted house.
+h hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) no
+h decides not to open the door. However...
+h  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)yes
+h takes out her weapon, but it's too late you are already dead 
+h You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: h
+h stands in front of a spooky haunted house.
+h hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) no
+h decides not to open the door. However...
+h  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)no
+h You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) teleport
+yvette decides to flee.You are a coward, but smart.
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ no
+-bash: no: command not found
+MacBook-Pro-67:te2018grade9term1 student$ no
+-bash: no: command not found
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) no
+yvette decides not to open the door. However...
+yvette  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)no
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) teleport
+yvette decides to flee.You are a coward, but smart.
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) yes
+yvette prepares their fists and opens the door...
+yvette sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue?yes
+yvette takes out her flashlight and realizes that there was nothing haunted about it. YOU SURVIVED
+yvette decides to flee.You are a coward, but smart.
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: h
+h stands in front of a spooky haunted house.
+h hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) yes     
+h prepares their fists and opens the door...
+h sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue?yes
+h takes out her flashlight and realizes that there was nothing haunted about it. YOU SURVIVED
+h you see a shadow lurking.you just died 
+h decides to flee.You are a coward, but smart.
+h You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) teleport
+yvette decides to flee.You are a coward, but smart.
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: abandon
+abandon stands in front of a spooky haunted house.
+abandon hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) 
+abandon decides to flee.You are a coward, but smart.
+abandon You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: j
+j stands in front of a spooky haunted house.
+j hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) abandon
+j decides to flee.You are a coward, but smart.
+j You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: j
+j stands in front of a spooky haunted house.
+j hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) no
+j decides not to open the door. However...
+j  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)yes
+j takes out her weapon, but it's too late you are already dead 
+j You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: h
+h stands in front of a spooky haunted house.
+h hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) no
+h decides not to open the door. However...
+h  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)yes
+h takes out her weapon, but it's too late you are already dead 
+h You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) no
+yvette decides not to open the door. However...
+yvette  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)yes
+yvette takes out her weapon, but it's too late you are already dead 
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: j
+j stands in front of a spooky haunted house.
+j hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) no
+j decides not to open the door. However...
+j  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)no
+j You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: j
+j stands in front of a spooky haunted house.
+j hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) yes
+j prepares their fists and opens the door...
+j sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue?yes
+j takes out her flashlight and realizes that there was nothing haunted about it. YOU SURVIVED
+j decides to flee.You are a coward, but smart.
+j You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) yes
+yvette prepares their fists and opens the door...
+yvette sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue?yes
+yvette takes out her flashlight and realizes that there was nothing haunted about it. YOU SURVIVED
+yvette decides to flee.You are a coward, but smart.
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:108
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:109
+});
+ ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:82
+else {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:82
+else {
+^^^^
+
+SyntaxError: Unexpected token else
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) no
+yvette decides not to open the door. However...
+yvette  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)yes
+yvette takes out her weapon, but it's too late you are already dead 
+yvette decides to flee.You are a coward, but smart.
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) yes
+yvette prepares their fists and opens the door...
+yvette sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue?no
+yvette you see a shadow lurking.you just died 
+yvette decides to flee.You are a coward, but smart.
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) abandon
+yvette decides to flee.You are a coward, but smart.
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: teleport
+teleport stands in front of a spooky haunted house.
+teleport hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) teleport
+teleport You decide to teleport and now you are heading to Japan 
+      You are now in an arcade game.No one is there and it is very dark.You see a door that is red.
+Will you follow and enter? (yes or no)yes
+teleport
+  You go outside and   see a bunch of people all walking
+  to their desired destinationos. You go to the police...You are safe
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: y
+y stands in front of a spooky haunted house.
+y hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) teleport
+y You decide to teleport and now you are heading to Japan 
+      You are now in an arcade game.No one is there and it is very dark.You see a door that is red.
+Will you follow and enter? (yes or no)no
+y You see a dark shadow approaching from halfway accross
+ the room.It starts runing towards you .You take out your watch and stop time.
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: h
+h stands in front of a spooky haunted house.
+h hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) no
+h decides not to open the door. However...
+h  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)yes
+h takes out her weapon, but it's too late you are already dead 
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: y
+y stands in front of a spooky haunted house.
+y hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) no
+y decides not to open the door. However...
+y  starts walking in the opposite direction, you spot a old lady.She offers to take you to her house.
+Will you follow and enter? (yes or no)no
+y You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: j
+j stands in front of a spooky haunted house.
+j hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) yes
+j prepares their fists and opens the door...
+j sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue?maybe
+j takes out her flashlight and realizes that there was nothing haunted about it. YOU SURVIVED
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) yes
+yvette prepares their fists and opens the door...
+yvette sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue?no
+yvette you see a shadow lurking.you just died 
+MacBook-Pro-67:te2018grade9term1 student$ yvette
+-bash: yvette: command not found
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+/Users/student/Documents/GitHub/te2018grade9term1/haunted.js:78
+     else(enterHouse =="abandon") {
+                                  ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+    at startup (internal/bootstrap/node.js:285:19)
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) abandon
+yvette decides to flee.You are a coward, but smart.
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: teleport
+teleport stands in front of a spooky haunted house.
+teleport hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) teleport
+teleport You decide to teleport and now you are heading to Japan 
+      You are now in an arcade game.No one is there and it is very dark.You see a door that is red.
+Will you follow and enter? (yes or no)yes
+teleport
+  You go outside and   see a bunch of people all walking
+  to their desired destinationos. You go to the police...You are safe
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) yes
+yvette prepares their fists and opens the door...
+yvette sees a figure and starts hitting it. Quickly realizing that nothing was  actually there
+Will you continue?no
+yvette you see a shadow lurking.you just died 
+yvette decides to flee.You are a coward, but smart.
+yvette You survived
+MacBook-Pro-67:te2018grade9term1 student$ clear
+
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?:     
+ stands in front of a spooky haunted house.
+ hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) 
+ decides to flee.You are a coward, but smart.
+ You survived
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) abadon
+MacBook-Pro-67:te2018grade9term1 student$ node haunted.js
+
+*** WELCOME TO THE HAUNTED HOUSE ***
+What is your name?: yvette
+yvette stands in front of a spooky haunted house.
+yvette hears what sounds like screaming coming from inside the house.
+Will you enter the house? (yes or no or teleport or abandon) abandon
+MacBook-Pro-67:te2018grade9term1 student$ 
