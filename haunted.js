@@ -25,18 +25,23 @@ if(enterHouse == "y" || enterHouse == "yes") {
     let talkback = READLINE.question("Are you sure you want to continue?")
       if (talkback == "yes" || talkback == "maybe"){
         console.log(`${player.name} takes out her ${player.item} and head up to the second floor.You pass through the door and into one of the rooms.By the window, you see someone dressed in white looking out of it`);}
+    else if (talkback == "no" || talkback == "n"){
+       console.log(`${player.name} is a coward for not entering.`);
+    }
     let okay = READLINE .question("Do you approach her?")
       if (okay == "yes" || okay == "definitely"){
        console.log(`${player.name} you slowly approach her and when she turns around, there is no face.She    opens her mouth, and a bunch of bugs crawl out.The bugs spreads to you and eat you up.You died a painful and disturbing death.`);
     }
       else if (okay == "no" || okay == "never"){
       console.log(`${player.name} is you quickly run to the opposite direction.But that same person appears in front of you.She smiles, and without realizing you are already dead. `);
-    }
-      else (talkback =="n" || talkback == "no")
-        {
-          console.log(`${player.name} you died.For natural causes...bye. `);
-    
-      }
+     }
+let not = READLINE.question("Do ypou want to head to the backyard?")
+if(not == "yes" || not == "y"){
+  console.log(`${player.name} you slowly`);
+}
+else if (not == "no" || not =="n"){
+  console.log(`${player.name} you died`);
+}
     }
   
 else if (enterHouse == "no") {
