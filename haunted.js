@@ -18,7 +18,7 @@ console.log("*** WELCOME TO THE HAUNTED HOUSE ***");
 player.name = READLINE.question("What is your name?: ");
 console.log(`${player.name} stands in front of a spooky haunted house.`);
 console.log(`${player.name} hears what sounds like screaming coming from inside the house.`);
-let enterHouse = READLINE.question("Will you enter the house? (yes or no or teleport) ");
+let enterHouse = READLINE.question("Will you enter the house? (yes or teleport) ");
 if(enterHouse == "y" || enterHouse == "yes") {
   player.courage++;
   console.log(`${player.name} prepares their ${player.weapon} and opens the door...`);
@@ -62,5 +62,13 @@ if(word == "white"){
 }else if (word == "white" && okay == "r" && enter =="right"){
   console.log("You are outside against all odds!You survived")}
 }
-else if(enterHouse == "transport" || enterHouse == "bye"){
-  console.log(`${player.name} prepares their ${player.weapon} and opens the door...`);
+else if(enterHouse == "teleport" || enterHouse == "bye"){
+  console.log(`${player.name} You decide to teleport and now you are heading to Japan 
+  You are now in an arcade game. No one is there and it is very dark.You see a door that is red and another that is purple`);
+let country = READLINE.question("Will you follow and enter? (purple or red)")
+if(country == "purple"){
+  console.log("You enter the purple door and see a dark shadow approaching from halfway accross the room.It starts runing towards you .You take out your ${player.help} and stop time.")
+}else if(country == "red"){
+  console.log("you enter the red door and take out your ${player.item}. ")
+}
+}
