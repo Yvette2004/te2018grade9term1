@@ -67,8 +67,26 @@ else if(enterHouse == "teleport" || enterHouse == "bye"){
   You are now in an arcade game. No one is there and it is very dark.You see a door that is red and another that is purple`);
 let country = READLINE.question("Will you follow and enter? (purple or red)")
 if(country == "purple"){
-  console.log("You enter the purple door and see a dark shadow approaching from halfway accross the room.It starts runing towards you .You take out your ${player.help} and stop time.")
-}else if(country == "red"){
-  console.log("you enter the red door and take out your ${player.item}. ")
+  console.log("You enter the purple door and see a dark shadow approaching from halfway accross the room.It starts runing towards you .You take out your     ${player.help} and stop time.")
+}if(country == "red"){
+  console.log("You enter the red door and take out your ${player.item}.Tou start walking around and all of a sudden you see an arrow heading your way.You have powers and stop it midair. ")
 }
+let next =  READLINE.question("Out of no where a tunnel appears in front of you. Do you want to survive or take a chance?(follow or stay)")
+if(next == "stay"){
+  console.log("You end up staying and before time returns to normal speed, you enter a elevator.")
+}else if (next == "follow"){
+console.log("You enter the a dark tunnel, and it seems like you are walking forever.But then all of a sudden the lights come one, and you see two pathways one that is covered in the color aqua and dark red.Which one?")}
 }
+let hello = READLINE.question("What floor?(2,3,4,5)")
+if(next == "stay" && hello == "2"){
+  console.log("")
+}else if(next == "stay" && hello == "3"){
+  console.log("")
+}else if(next == "stay" && hello == "4"){
+
+}else if(next == "stay" && hello == "5"){
+  
+}
+
+
+
