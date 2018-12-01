@@ -23,24 +23,21 @@ bother("Yvette","emily");
 // what the user decides.*/
 function sayHello (name) {
   console.log(`Hey ${name}! :)`);
-}function getAge(){
-  let birthYear = READLINE.question("how many time do you want me to print your name, 1 or 5 times?");
-if(sayHello == "1"){
-function bother(name){
+}
+function doTheThing() {
+  let theThing = READLINE.question("ow many time do you want me to print your name, 1 or 5 times?: ");
+  if (theThing === "1") {
+  sayHello(name);
+  } else {
   sayHello(name);
   sayHello(name);
   sayHello(name);
   sayHello(name);
-  sayHello(name);
-}}
-else if (sayHello == "5"){
-  function bother(name){
-  sayHello(name);
-}}}
-bother("Yvette");
+   sayHello(name);
+  }
+}
 
-
-
+doTheThing();
 
 
 // **** Problem 4:
