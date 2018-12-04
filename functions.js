@@ -24,20 +24,24 @@ bother("Yvette","emily");
 function sayHello (name) {
   console.log(`Hey ${name}! :)`);
 }
-function doTheThing() {
-  let theThing = READLINE.question("How many time do you want me to print your name, 1 or 5 times?: ");
-  if (theThing === "1") {
-  sayHello(name);
+
+function hello(name) {
+  let hello = READLINE.question("How many time do you want me to print your name, 1 or 5 times?: ");
+  if (hello === "1") {
+   sayHello(name)
   } else {
-  sayHello(name);
-  sayHello(name);
-  sayHello(name);
-  sayHello(name);
-   sayHello(name);
+    sayHello(name)
+     sayHello(name)
+      sayHello(name)
+       sayHello(name)
+        sayHello(name)
   }
 }
 
-doTheThing();
+hello();
+
+
+
 
 
 // **** Problem 4:
