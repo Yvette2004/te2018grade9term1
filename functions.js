@@ -25,7 +25,7 @@ function sayHello (name) {
   console.log(`Hey ${name}! :)`);
 }
 function doTheThing() {
-  let theThing = READLINE.question("ow many time do you want me to print your name, 1 or 5 times?: ");
+  let theThing = READLINE.question("How many time do you want me to print your name, 1 or 5 times?: ");
   if (theThing === "1") {
   sayHello(name);
   } else {

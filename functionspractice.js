@@ -35,3 +35,35 @@ console.log(userAge)
 if(userAge < 17){
 	console.log(" No r rated movies!")
 }
+
+
+
+
+
+
+
+
+
+let fellow = "Humpty Dumpty";
+console.log(`Name: ${fellow}`)
+let space = fellow.indexOF("");
+let firstName = fellow.substring(0, gap);
+let lastName = fellow.substring(gap, fellow.length)
+ fellow = fellow.toUpperCase();
+console.log(first)
+console.log(`String: ${fellow}`);
+let len = fellow.length;
+console.log(`length: $(len)`);
+let seven = fellow,charAt(7);
+console.log(`Char at index 7: $(seven)`);
+console.log(`Index )
+
+
+
+
+
+
+
+
+
+
