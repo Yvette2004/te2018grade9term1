@@ -21,25 +21,24 @@ bother("Yvette","emily");
 // Write a function that asks the user if they'd like to print your message
 // once or five times. Then call one of the two functions above based on
 // what the user decides.*/
-function sayHello (name) {
-  console.log(`Hey ${name}! :)`);
-}
 
-function hello(name) {
+
+
+
+
+function never (name) {
+  console.log(`Hey ${name}!`);
   let hello = READLINE.question("How many time do you want me to print your name, 1 or 5 times?: ");
-  if (hello === "1") {
-   sayHello(name)
+   if (hello === "1") {
+   never(name)
   } else {
-    sayHello(name)
-     sayHello(name)
-      sayHello(name)
-       sayHello(name)
-        sayHello(name)
-  }
-}
-
-hello();
-
+  never(name);
+  never(name);
+  never(name);
+  never(name);
+  never(name);
+}}
+never("Yvette");
 
 
 
