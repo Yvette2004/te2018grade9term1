@@ -63,17 +63,17 @@ parrotTrouble(false, 6) → false
 function doTheThing(talking) {
   let theThing = READLINE.question("What is the current time?: ");
   if (theThing < 7) {
-    console.log(`true`);
+    console.log(true);
   } else if (theThing > 20) {
-    console.log(`true`);
+    console.log(true);
   } else if (theThing >=7 && theThing <= 20 ){
-    console.log(`false`);
+    console.log(false);
   }
 }
 
 
 // Remove comment below to test this function.
-testParrotTrouble();
+//testParrotTrouble();
 
 
 
@@ -98,6 +98,18 @@ alarmClock(1, false) → "7:00"
 alarmClock(6, true) → "off"
 alarmClock(0, false) → "10:00"
 *******************************************************************************/
+
+function bye(answer) {
+  let answer = READLINE.question("What day is it?: ");
+  if (answer = "0" || answer = "6") {
+    console.log("10:00");
+  } else if (answer = "1" ||answer = "2" || answer = "3" || answer = "4"  || answer = "5" ) {
+    console.log("7:00");
+  } 
+  }
+
+
+
 
 
 
