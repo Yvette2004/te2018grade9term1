@@ -28,6 +28,8 @@ bother("Yvette","emily");
 
 function never (name) {
   console.log(`Hey ${name}!`);
+  
+}function bye(name){
   let hello = READLINE.question("How many time do you want me to print your name, 1 or 5 times?: ");
    if (hello === "1") {
    never(name)
@@ -38,7 +40,7 @@ function never (name) {
   never(name);
   never(name);
 }}
-never("Yvette");
+bye("Yvette");
 
 
 
@@ -58,10 +60,20 @@ parrotTrouble(true, 7) → false
 parrotTrouble(false, 6) → false
 *******************************************************************************/
 
+function doTheThing(talking) {
+  let theThing = READLINE.question("What is the current time?: ");
+  if (theThing < 7) {
+    console.log(`true`);
+  } else if (theThing > 20) {
+    console.log(`true`);
+  } else if (theThing >=7 && theThing <= 20 ){
+    console.log(`false`);
+  }
+}
 
 
 // Remove comment below to test this function.
-//testParrotTrouble();
+testParrotTrouble();
 
 
 
