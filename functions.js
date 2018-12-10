@@ -61,15 +61,19 @@ parrotTrouble(false, 6) → false
 *******************************************************************************/
 
 
+function word() {
+  let answer = READLINE.question("What hour is it: ");
+  let talking = READLINE.question("Is the parrot talking?")
+  if((talking == true) && (hour <7 )|| (hour > 20)){
+  console.log(true)}
+else {
+  console.log(false)
+}}
+ 
+word()
 
 // Remove comment below to test this function.
 //testParrotTrouble();
-
-
-
-
-
-
 
 
 
@@ -89,19 +93,6 @@ alarmClock(6, true) → "off"
 alarmClock(0, false) → "10:00"
 *******************************************************************************/
 
-function bye(response) {
-  let answer = READLINE.question("What day is it?(#): ");
-let yvette = READLINE.question(" Are you on vacation?(true or false")}
-  if (((answer = "0") && (yvette = false))   || ((answer = "6") && (yvette = false))) {
-    console.log("10:00");
-  } else if (((answer = "1") && (yvette = false))   || ((answer = "2") && (yvette = false)) || ((answer = "4") && (yvette = false))|| ((answer = "5") && (yvette = false))) {
-    console.log("7:00");
-   } else if(((answer = "0") && (yvette = true))   || ((answer = "6") && (yvette = true))){
-    console.log("off");
-   } else if (((answer = "1") && (yvette = true))   || ((answer = "2") && (yvette = true)) || ((answer = "4") && (yvette = true))|| ((answer = "5") && (yvette = true))){
-    console.log("10:00");
-  
- 
 
 
 
@@ -113,7 +104,7 @@ let yvette = READLINE.question(" Are you on vacation?(true or false")}
 /****************************************************************************
                                     Tests
 *****************************************************************************/
-testAlarmClock();
+//testAlarmClock();
 
 
 function testParrotTrouble() {
@@ -140,5 +131,5 @@ function testAlarmClock() {
   console.log("alarmClock(6, true) → \"off\" " + "\"" + alarmClock(6, true) + "\"");
   console.log("alarmClock(1, true) → \"10:00\" "  + "\"" + alarmClock(1, true) + "\"");
   console.log("alarmClock(3, true) → \"10:00\" " + "\"" + alarmClock(3, true) +"\"");
-  console.log("alarmClock(5, true) → \"10:00\" " + "\"" + alarmClock(5, true) + "\"")
+  console.log("alarmClock(5, true) → \"10:00\" " + "\"" + alarmClock(5, true) + "\"");
 }

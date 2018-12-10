@@ -3,18 +3,18 @@
 // and includes properties of owner, withdrawalLimit, balance, and bankName
 // it also has three methods that you will have to create!
 let bankAccount = {
-  owner: 'yvette',
+  owner:'Yvette',
   withdrawalLimit: 50,
   balance: 100,
   bankName: 'Chase Bank',
-  deposit: function() {
-
+  deposit: function addTwoNums(deposit,balance) {
+    return deposit + balance;
   },
   withdraw: function() {
 
   },
   createGreeting: function() {
-
+ console.log("Welcome")
   }
 };
 
@@ -27,7 +27,7 @@ let bankAccount = {
 
 // **** Problem 1 Tests ****
 console.log('**** Problem 1 Tests ****');
-console.log(`${typeof bankAccount.owner}... should be string`);
+console.log(`${typeof bankAccount.owner} `);
 console.log(`${bankAccount.createGreeting()} Hello nice to meet you, I hope you have a good time!, ${bankAccount.owner}, and ${bankAccount.bankName}`);
 
 

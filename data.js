@@ -24,4 +24,3 @@ console.log(y)
 
 let userInput = READLINE.question("Type anything and I'll repeat it back")
 console.log(userInput)
-bard
