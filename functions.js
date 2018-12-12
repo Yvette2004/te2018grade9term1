@@ -14,7 +14,7 @@ function bother(name1){
   sayHello(name1);
   sayHello(name1);
 }
-bother("Yvette","emily");
+bother("Yvette");
 
 // **** Problem 3:
 /******************************************************************************
@@ -44,7 +44,6 @@ bye("Yvette");
 
 
 
-
 // **** Problem 4:
 /******************************************************************************
                           parrotTrouble(talking, hour)
@@ -61,19 +60,23 @@ parrotTrouble(false, 6) → false
 *******************************************************************************/
 
 
-function word() {
-  let answer = READLINE.question("What hour is it: ");
-  let talking = READLINE.question("Is the parrot talking?")
-  if((talking == true) && (hour <7 )|| (hour > 20)){
-  console.log(true)}
+function parrotTrouble(talking,hour) {
+  if (talking === true && ((hour < 7) || (hour > 20))){
+    console.log("in trouble")
+    return true
+  }
 else {
-  console.log(false)
-}}
- 
-word()
+  return false;
+}
+  }
+parrotTrouble(true,6)
+parrotTrouble(true,7)
+
+
+
 
 // Remove comment below to test this function.
-//testParrotTrouble();
+testParrotTrouble();
 
 
 
@@ -95,6 +98,25 @@ alarmClock(0, false) → "10:00"
 
 
 
+function testAlarmClock(time,day) {
+  if (((time <= 5) && (time >= 1)) && (day === false) ){
+    return "7:00"
+  }
+ else if (((time === 6) || (time === 0)) && (day === false)){
+    return "10:00"
+  }
+  else if (((time <= 5) && (time >= 1)) && (day === true)){
+    return "10:00"
+  }
+  else if (((time === 6) || (time === 0)) && (day === true)){
+    return "off"
+    }
+  }
+
+
+testAlarmClock(1,false)
+testAlarmClock(6,false)
+
 
 
 
@@ -104,7 +126,7 @@ alarmClock(0, false) → "10:00"
 /****************************************************************************
                                     Tests
 *****************************************************************************/
-//testAlarmClock();
+testAlarmClock();
 
 
 function testParrotTrouble() {
