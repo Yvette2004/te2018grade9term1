@@ -8,17 +8,21 @@ let bankAccount = {
   balance: 100,
   bankName: 'Chase Bank',
   deposit: function addTwoNums(deposit,balance) {
+    return deposit;
     return deposit + balance;
   },
   withdraw: function() {
 
   },
-  createGreeting: function() {
- console.log("Welcome")
+  createGreeting: function hi() {
+ let never = `Welcome ${bankAccount.owner} and thanks for coming to ${bankAccount.bankName}`;
+  return never;
   }
 };
 
 
+
+//Prints: 3 
 // **** Problem 1: Greet the User ****
 // Update the property 'owner' to be your name
 // Then fill in the createGreeting method so that it will RETURN a greeting,
@@ -27,7 +31,8 @@ let bankAccount = {
 
 // **** Problem 1 Tests ****
 console.log('**** Problem 1 Tests ****');
-console.log(`${typeof bankAccount.owner} `);
+bankAccount.owner = "Yvette";      
+console.log(`${typeof bankAccount.owner} should be a string `);
 console.log(`${bankAccount.createGreeting()} Hello nice to meet you, I hope you have a good time!, ${bankAccount.owner}, and ${bankAccount.bankName}`);
 
 
