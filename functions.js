@@ -98,24 +98,24 @@ alarmClock(0, false) → "10:00"
 
 
 
-function testAlarmClock(time,day) {
-  if (((time <= 5) && (time >= 1)) && (day === false) ){
+function alarmClock(time,day) {
+  if (((time <= 5) && (time >= 1)) && (day == false) ){
     return "7:00"
   }
- else if (((time === 6) || (time === 0)) && (day === false)){
+ else if (((time == 6) || (time == 0)) && (day == false)){
     return "10:00"
   }
-  else if (((time <= 5) && (time >= 1)) && (day === true)){
+  else if (((time <= 5) && (time >= 1)) && (day == true)){
     return "10:00"
   }
-  else if (((time === 6) || (time === 0)) && (day === true)){
+  else if (((time == 6) || (time == 0)) && (day == true)){
     return "off"
-    }
+    };
   }
 
 
-testAlarmClock(1,false)
-testAlarmClock(6,false)
+alarmClock(1,false)
+
 
 
 
