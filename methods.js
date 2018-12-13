@@ -7,20 +7,19 @@ let bankAccount = {
   withdrawalLimit: 50,
   balance: 100,
   bankName: 'Chase Bank',
-  deposit: function addTwoNums(deposit,balance) {
-    let currentBalance = `${bankAccount.balance}`
-    this.currentBalance = currentBalance + `${bankAccount.deposit}`
-    //Your current balance right now is ${bankAccount.balance} and you want to deposit ${bankAccount.money}`
-    let currentBalance = `${bankAccount.balance}`
-    console.log(`Your deposit was a success, you deposited ${bankAccount.deposit} and your new balance is ${bankAccount.balance}  `)
-    return new
-  
-
-  withdraw: function() {
-
-  },
-  createGreeting: function hi() {
- let never = `Welcome ${bankAccount.owner} and thanks for coming to ${bankAccount.bankName}`;
+  deposit: function (amount) {
+  let currentBalance = this.balance ; 
+  this.balance = currentBalance + amount;
+    console.log(`Your deposit is a success.you desposited $${amount}  and there is this $${this.balance} in your account`)
+}, 
+  withdraw: function(amount) {
+ if ((amount <=this.withdrawalLimit) && (amount <= this.balance) && (amount > 0)) { 
+        let newBalance = this.balance - amount; 
+        this.balance = newBalance;
+  }
+},
+  createGreeting: function () {
+ let never = "Welcome "+this.owner+"! and thanks for coming to "+this.bankName +"!";
   return never;
   }
 };
@@ -47,7 +46,7 @@ console.log(`${bankAccount.createGreeting()} Hello nice to meet you, I hope you 
 // and print a success message including the amount deposited
 
 // **** Problem 2 Tests ****
-
+bankAccount.currentBalance = bankAccount.deposit + bankAccount.currentBalance
 console.log('\n\n**** Problem 2 Tests ****');
 console.log(`Before depositing any money our balance was ${bankAccount.balance}`);
 bankAccount.deposit(50);
