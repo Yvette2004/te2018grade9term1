@@ -3,16 +3,20 @@ let hero = {
   superpower: 'Witchcraft and Wizardry',
   strength: 12,
   hearts: 20,
+  
 }
 let villain = {
   name: 'Voldemort',
   strength: 9,
   hearts: 25,
+  catchphrase: undefined,
   battleCry: function() {
     catchphrase = "You're a fool Harry Potter, and you will lose";
-    console.log(catchphrase);
+    console.log(this.catchphrase);
+   
   }
-}
+};
+hero.name="nqme"; 
 
 /*                          *********************************
       Each of these problems has more than one way to solve it, but all are related to scope.
@@ -33,7 +37,7 @@ console.log('***** Problem 1 *****')
 villain.catchphrase = 'Avada Kedavra!'
  console.log(`The next line should print: ${villain.catchphrase}`)
  villain.battleCry();
-console.log(`${villain.catchphrase}`)
+
 
 
 
@@ -46,13 +50,13 @@ console.log(`${villain.catchphrase}`)
    Uncomment the following code to get started.
    Figure out why it gives you an error and then fix it!
 */
- console.log('***** Problem 2 *****')
- if (`${hero.strength} > ${villain.strength}`) {
-   stronger = hero.name;
- }
-console.log(`The stronger player is ${stronger}`)
- console.log('Harry Potter rules, no evil wizard can defeat evil')
+console.log('***** Problem 2 *****')
 
+ if (hero.strength > villain.strength)
+  {   stronger = hero.name;
+ }
+ console.log(`The stronger player is ${stronger}`)
+console.log('\n\n\n\n\n')
 
 
 
@@ -74,10 +78,9 @@ console.log(`The stronger player is ${stronger}`)
 }
 
  createAHero('Hermione');
-
+ hero.name = `Hermione`
  console.log(`But outside of our function our hero is still ${hero.name}`)
 console.log('\n\n\n\n\n')
-
 
 
 
