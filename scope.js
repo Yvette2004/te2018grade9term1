@@ -62,13 +62,14 @@ console.log(`The stronger player is ${stronger}`)
    Try to find a couple of different ways to make both console.log statements print the same name.
 */
  console.log('***** Problem 3 *****')
+ 
  function createAHero(name) {
-     let hero = {
+    let hero = {
     name: name,
     hearts: 20,
-     strength: 10,
+    strength: 10,
    }
-   createAHero(name)
+ 
    console.log(`Within our function, our hero is ${hero.name}`)
 }
 
