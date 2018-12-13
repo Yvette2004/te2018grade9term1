@@ -70,8 +70,8 @@ console.log(`The stronger player is ${stronger}`)
    }
    createAHero(name)
    console.log(`Within our function, our hero is ${hero.name}`)
- }
-createAHero(name)
+}
+
  createAHero('Hermione');
 
  console.log(`But outside of our function our hero is still ${hero.name}`)
