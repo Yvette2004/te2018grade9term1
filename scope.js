@@ -16,7 +16,7 @@ let villain = {
    
   }
 };
-hero.name="nqme"; 
+
 
 /*                          *********************************
       Each of these problems has more than one way to solve it, but all are related to scope.
