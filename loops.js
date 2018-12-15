@@ -1,3 +1,4 @@
+
 /******************************************************************************
                                    stringTimes()
 Instructions:
@@ -10,11 +11,17 @@ stringTimes("Hi", 1) → "Hi"
 *******************************************************************************/
 
 function stringTimes(str, n) {
-
+let larger = "";
+let counter = 0
+while(counter < n ){
+  larger = larger+ str;
+counter++;
+}
+return larger;
 }
 
 // Remove comment below to test this function.
-//testStringTimes();
+testStringTimes();
 
 /******************************************************************************
                                    countXX()
