@@ -26,7 +26,7 @@ let newLast = this.lastName.substring(0,2);
 let fantasyName = newFirst + newLast;
 return fantasyName
 }
-NewFirstName()
+getNewFirstName()
 /******************************************************************************
                                   getNewLastName()
 

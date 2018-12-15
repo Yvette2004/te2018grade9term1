@@ -1,18 +1,4 @@
-Skip to content
 
-Search…
-All gists
-GitHub
- 
-Instantly share code, notes, and snippets.
-
-0 1 @cmccarthy15cmccarthy15/fantasyUpdate.js
-Last active 7 days ago
- 
-<script src="https://gist.github.com/cmccarthy15/c353921fbfc93b2e9817ebd6e125fa93.js"></script>
-  
- Code  Revisions 2  Forks 1
- fantasyUpdate.js
 // Author: FirstName LastName
 const READLINE = require("readline-sync");
 
@@ -25,15 +11,21 @@ let fantasyNameCreator = {
   dreamCar: '',
   street: '',
   fantasyName: '',
-  getNewFirstName: function(){
+  getNewFirstName: function (){
     /******************************************************************************
       This method returns the user's new first name. To do so, concatenate the
       first 3 letters of their real first name and the first 2 letters of their
       real last name.
     *******************************************************************************/
 
+  this.firstName = READLINE.question("what is your first name?");
+  this.lastName = READLINE.question("what is your last name?");
+  let newFirst = this.firstName.substring(0,3);
+  let newLast = this.lastName.substring(0,2);
+  let fantasyName = newFirst + newLast;
+  return fantasyName;
+},
 
-  },
   getNewLastName: function(){
     /******************************************************************************
       This method returns the user's new last name. To do so, concatenate the
@@ -56,8 +48,9 @@ let fantasyNameCreator = {
       This method returns the user's full honorific. To do so, concatenate their
       title, " of ", and the name of the street they live on.
     *******************************************************************************/
-
-
+//this.street = READLINE.question("please enter the street you live on: ")
+//this.fantasyName = this.getTitle() + " of " + this.street;
+//return this.fantasyName;
   },
 
 }
@@ -80,17 +73,3 @@ function run() {
 
 // Run the program!
 run();
- to join this conversation on GitHub. Already have an account? Sign in to comment
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
