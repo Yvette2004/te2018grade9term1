@@ -9,10 +9,12 @@ withoutEnd("java") → "av"
 withoutEnd("coding") → "odin"
 *******************************************************************************/
 
-function withoutEnd(str) {
+//function withoutEnd(str) {
 
-}
 
+//return (1, str.length()-1); 
+//}
+//withoutEnd();
 // Remove comment below to test this function.
 //testWithoutEnd();
 
@@ -29,11 +31,13 @@ frontAgain("ed") → true
 
 
 function frontAgain(str) {
-
+  str = "edited"
+str.startsWith(0,2);
+str.endsWith(0,2);
 }
-
+frontAgain()
 // Test this function.
-//testFrontAgain();
+testFrontAgain();
 
 /******************************************************************************
                                    deFront()

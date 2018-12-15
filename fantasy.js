@@ -19,9 +19,14 @@ let fantasyName;
 *******************************************************************************/
 
 function getNewFirstName() {
-
+this.firstName = READLINE.question("what is your first name?");
+this.lastName = READLINE.question("what is your last name?");
+let newFirst = this.firstName.substring(0,3);
+let newLast = this.lastName.substring(0,2);
+let fantasyName = newFirst + newLast;
+return fantasyName
 }
-
+NewFirstName()
 /******************************************************************************
                                   getNewLastName()
 
@@ -72,3 +77,7 @@ function run() {
 
 // Run the program!
 run();
+
+
+
+
