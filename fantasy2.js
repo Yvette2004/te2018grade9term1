@@ -10,7 +10,7 @@ let fantasyNameCreator = {
   cityBorn: '',
   dreamCar: '',
   street: '',
-  fantasyName: '',
+  fantasyName:'',
   getNewFirstName: function (){
     /******************************************************************************
       This method returns the user's new first name. To do so, concatenate the
@@ -22,8 +22,8 @@ let fantasyNameCreator = {
   this.lastName = READLINE.question("what is your last name?");
   let newFirst = this.firstName.substring(0,3);
   let newLast = this.lastName.substring(0,2);
- latestName = newFirst + newLast;
-  return latestName;
+let fantasyName = newFirst + newLast;
+return fantasyName
 },
 
   getNewLastName: function(){
@@ -84,7 +84,7 @@ console.log("To generate your fantasy name,please answer these questions.")
   this.cityBorn = READLINE.question("What city were you born in?");
   this.dreamCar = READLINE.question("What is your dreammcar?")
   this.street = READLINE.question("please enter the street you live on: ")
-let run = latestName + newLastName +getTitle + this.fantasyName 
+let run = fantasyName + newLastName +getTitle + this.fantasyName 
 return run;
 }
 
