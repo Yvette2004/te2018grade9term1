@@ -22,8 +22,8 @@ let fantasyNameCreator = {
   this.lastName = READLINE.question("what is your last name?");
   let newFirst = this.firstName.substring(0,3);
   let newLast = this.lastName.substring(0,2);
-  let fantasyName = newFirst + newLast;
-  return fantasyName;
+  let latestName = newFirst + newLast;
+  return latestName;
 },
 
   getNewLastName: function(){
@@ -32,25 +32,34 @@ let fantasyNameCreator = {
       first 2 letters of their mom's maiden name and the first 3 letters of the
       city where they were born.
     *******************************************************************************/
-
+this.momMaidenName = READLINE.question("What is your Mom's maiden name?");
+this.cityBorn = READLINE.question("What city were you born in?");
+let newMom = this.momMaidenName.substring(0,2);
+let newCity = this.cityBorn.substring(0,3);
+let newLastName = newMom + newCity;
+return newLastName;
 
   },
   getTitle: function(){
     /******************************************************************************
       This method returns the user's title. To do so, concatenate the last three
       letters of their real last name, reversed, and the model of their dream car.
+
     *******************************************************************************/
-
-
+ this.lastName = READLINE.question("what is your last name?");
+let newName = this.lastName.substring(0,3)
+this.dreamCar = READLINE.question("What is your dreammcar?")
+let getTitle = newName + this.dreamCar;
+return getTitle
   },
   getHonorific: function(){
     /******************************************************************************
       This method returns the user's full honorific. To do so, concatenate their
       title, " of ", and the name of the street they live on.
     *******************************************************************************/
-//this.street = READLINE.question("please enter the street you live on: ")
-//this.fantasyName = this.getTitle() + " of " + this.street;
-//return this.fantasyName;
+this.street = READLINE.question("please enter the street you live on: ")
+this.fantasyName = this.getTitle() + " of " + this.street;
+return this.fantasyName;
   },
 
 }
@@ -68,8 +77,16 @@ let fantasyNameCreator = {
 *******************************************************************************/
 
 function run() {
-
+console.log("To generate your fantasy name,please answer these questions.")
+ this.firstName = READLINE.question("what is your first name?");
+ this.lastName = READLINE.question("what is your last name?");
+ this.momMaidenName = READLINE.question("What is your Mom's maiden name?");
+this.cityBorn = READLINE.question("What city were you born in?");
+this.dreamCar = READLINE.question("What is your dreammcar?")
+this.street = READLINE.question("please enter the street you live on: ")
+console.log( newLastName +  this.fantasyName)
 }
+
 
 // Run the program!
 run();

@@ -20,6 +20,7 @@ counter++;
 return larger;
 }
 
+
 // Remove comment below to test this function.
 testStringTimes();
 
