@@ -22,7 +22,7 @@ let fantasyNameCreator = {
   this.lastName = READLINE.question("what is your last name?");
   let newFirst = this.firstName.substring(0,3);
   let newLast = this.lastName.substring(0,2);
-  let latestName = newFirst + newLast;
+ latestName = newFirst + newLast;
   return latestName;
 },
 
@@ -79,12 +79,13 @@ return this.fantasyName;
 function run() {
 console.log("To generate your fantasy name,please answer these questions.")
  this.firstName = READLINE.question("what is your first name?");
- this.lastName = READLINE.question("what is your last name?");
- this.momMaidenName = READLINE.question("What is your Mom's maiden name?");
-this.cityBorn = READLINE.question("What city were you born in?");
-this.dreamCar = READLINE.question("What is your dreammcar?")
-this.street = READLINE.question("please enter the street you live on: ")
-console.log( newLastName +  this.fantasyName)
+  this.lastName = READLINE.question("what is your last name?");
+  this.momMaidenName = READLINE.question("What is your Mom's maiden name?");
+  this.cityBorn = READLINE.question("What city were you born in?");
+  this.dreamCar = READLINE.question("What is your dreammcar?")
+  this.street = READLINE.question("please enter the street you live on: ")
+let run = latestName + newLastName +getTitle + this.fantasyName 
+return run;
 }
 
 
