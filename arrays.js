@@ -37,10 +37,11 @@ function midThree(nums) {
 let center = Math.floor((nums.length)/2) 
 let start = center - 1
 let and = center + 1
-let midThree = splice.start(start,center,and+1)
-return array;
+let midThree = console.log(start,center,and+1)
+return midThree;
+//array
 }
-
+midThree()
 // Remove comment below to test this function.
 testMidThree();
 
