@@ -22,9 +22,10 @@ let fantasyNameCreator = {
   this.lastName = READLINE.question("what is your last name?");
   let newFirst = this.firstName.substring(0,3);
   let newLast = this.lastName.substring(0,2);
-let fantasyName = newFirst + newLast;
+  this.fantasyName = newFirst + newLast;
 return fantasyName
 },
+
 
   getNewLastName: function(){
     /******************************************************************************
@@ -58,8 +59,8 @@ return getTitle
       title, " of ", and the name of the street they live on.
     *******************************************************************************/
 this.street = READLINE.question("please enter the street you live on: ")
-this.fantasyName = this.getTitle() + " of " + this.street;
-return this.fantasyName;
+this.name = this.getTitle() + " of " + this.street;
+return this.name;
   },
 
 }
@@ -84,10 +85,11 @@ console.log("To generate your fantasy name,please answer these questions.")
   this.cityBorn = READLINE.question("What city were you born in?");
   this.dreamCar = READLINE.question("What is your dreammcar?")
   this.street = READLINE.question("please enter the street you live on: ")
-let run = fantasyName + newLastName +getTitle + this.fantasyName 
-return run;
+let run = this.fantasyName + this.name;
+console.log(run);
 }
 
 
-// Run the program!
+//Run the program!
+
 run();

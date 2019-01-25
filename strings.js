@@ -9,14 +9,14 @@ withoutEnd("java") → "av"
 withoutEnd("coding") → "odin"
 *******************************************************************************/
 
-//function withoutEnd(str) {
-
-
-//return (1, str.length()-1); 
-//}
-//withoutEnd();
+function withoutEnd(str) {
+//1, str.length()-1
+let hello = ""
+return (hello.substring(0,hello.length-1)) 
+}
+withoutEnd();
 // Remove comment below to test this function.
-//testWithoutEnd();
+testWithoutEnd();
 
 /******************************************************************************
                                    frontAgain()
@@ -31,7 +31,7 @@ frontAgain("ed") → true
 
 
 function frontAgain(str) {
-  str = "edited"
+ str = "edited"
 str.startsWith(0,2);
 str.endsWith(0,2);
 }
@@ -52,11 +52,18 @@ deFront("away") → "aay"
 *******************************************************************************/
 
 function deFront(str) {
+  let de = ''
+ let he = de.length();
+  if (he >= 2)
+  {
+    if (he.charAt(0) == 'a')
+      if (he.charAt(1) == 'b');
 
+  }
 }
 
 // Test this function.
-//testDeFront();
+testDeFront();
 
 /******************************************************************************
                                    without2()
